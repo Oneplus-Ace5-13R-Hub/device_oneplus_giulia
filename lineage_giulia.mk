@@ -17,6 +17,16 @@ TARGET_DISABLE_EPPE := true
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Rising flags
+WITH_GMS := true
+TARGET_ENABLE_BLUR := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_HAS_UDFPS := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="franlop77" \
+    RisingChipset="Snapdragon 8 Gen 3"
+
 PRODUCT_NAME := lineage_giulia
 PRODUCT_DEVICE := giulia
 PRODUCT_MANUFACTURER := OnePlus

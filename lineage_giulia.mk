@@ -23,6 +23,15 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2691
 
+WITH_GMS := true
+TARGET_ENABLE_BLUR := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_HAS_UDFPS := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingMaintainer="franlop77" \
+    RisingChipset="Snapdragon 8 Gen 3"
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

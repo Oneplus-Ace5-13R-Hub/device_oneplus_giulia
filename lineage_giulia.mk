@@ -28,6 +28,9 @@ TARGET_ENABLE_BLUR := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_HAS_UDFPS := true
 
+# rising Maintainer
+RISING_MAINTAINER=franlop77
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RisingMaintainer="franlop77" \
     RisingChipset="Snapdragon 8 Gen 3"
